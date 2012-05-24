@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>0.1</version>
+    <authors>gleb.netvoxlab</authors>
+    <owners>gleb.netvoxlab</owners>
+    <projectUrl>https://github.com/netvoxlab/Nvx.Log4netAutofacXmlConfigurator</projectUrl>
+    <dependencies>
+      <dependency id="Autofac" version="2.6.1.841" />
+      <dependency id="log4net" version="2.0.0" />
+    </dependencies>
+    <id>Nvx.Log4netAutofacXmlConfigurator</id>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Log4net confuguration using Autofac.</description>
+    <releaseNotes>Early beta version!</releaseNotes>
+  </metadata>
+  <files>
+    <file src="lib\net40\Nvx.Log4netAutofacXmlConfigurator.dll" target="lib\net40\Nvx.Log4netAutofacXmlConfigurator.dll" />
+    <file src="lib\net40\Nvx.Log4netAutofacXmlConfigurator.pdb" target="lib\net40\Nvx.Log4netAutofacXmlConfigurator.pdb" />
+  </files>
+</package>
